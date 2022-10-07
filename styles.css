@@ -170,6 +170,72 @@ body{
 
 
 
+@media only screen and (max-width: 600px) {
+    .container-sections{
+        padding: 15px;
+        grid-template-columns: 100%
+      
+    
+    }
+
+    .container-green{
+    
+        margin-right: 0px;
+    }
+
+
+    .container-red{
+       
+        grid-template-columns: 100%;
+        gap: 1px;
+        
+        
+        
+    }
+ 
+    
+
+
+
+
+
+    .container-blue{
+        margin-top: 10px;
+        padding:10px;
+       
+    }
+
+
+    body{
+        max-width: 150px;
+    }
+
+
+    .container-gris-total{
+       
+        grid-template-columns: 100%;
+       
+       
+        
+    }
+
+
+    .container-red>div{
+   
+        margin-top:5px;
+        margin-bottom:5px;
+        
+       
+    }
+
+
+   
+    
+
+
+}
+
+
 
 
 
