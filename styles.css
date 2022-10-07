@@ -1,0 +1,158 @@
+body{
+    max-width: 1200px;
+}
+
+
+
+
+
+.container{
+
+    background-color: black;
+    padding: 10px;
+    
+
+}
+
+
+.container-red{
+    display: grid;
+    background-color: red;
+    grid-template-columns: 15% auto 15%;
+    gap:10px;
+    padding:10px;
+    
+   
+    
+    
+}
+
+.container-red>div{
+   
+    height: 10px;
+    background-color: orange;
+   
+}
+
+
+.container-blue{
+    
+    background-color: blue;
+    padding: 10px;
+}
+
+.container-blue>div{
+    height: 10px;
+    background-color: rgb(225, 255, 0);
+}
+
+.container-sections{
+    display: grid;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    grid-template-columns: 75% 25%;
+
+    gap: 7px;
+
+}
+
+
+.container-gris{
+    
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 10px;
+   
+   
+    
+    
+}
+
+
+
+
+
+
+.container-green{
+    
+    background-color: green;
+    margin-right: 9px;
+    padding:10px;
+}
+
+
+
+.container-green>div{
+    
+    background-color: yellow;
+    height: 10px;
+    margin: 5px;
+    
+}
+
+
+
+
+.container-footer{
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+
+
+
+.container-purple{
+    height: 10px;
+    background-color: purple;
+}
+
+
+.container-gris-total{
+    display: grid;
+    background-color:grey;
+    grid-template-columns: 50% auto;
+   
+   
+    
+    
+}
+
+.container-gris-total>div{
+   
+    height: 10px;
+    background-color: blue;
+    margin:5px;
+        
+}
+
+
+.container-gris-parcial{
+    display: grid;
+    background-color:grey;
+    grid-template-columns: 100%;
+    
+   
+    
+    
+}
+
+.container-gris-parcial>div{
+   
+    height: 10px;
+    background-color: rgb(89, 89, 141);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+        
+}
+
+
+
+
+
+
+
